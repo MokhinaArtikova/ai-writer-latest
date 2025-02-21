@@ -3,7 +3,6 @@ import NavBar from '@/components/dashboard/navbar.tsx'
 import { Outlet } from 'react-router-dom'
 
 export default function DashboardLayout() {
-    console.log(import.meta.env.VITE_OPEN_AI_KEY)
     return (
         <div className={'h-screen overflow-hidden flex'}>
             <SideBar />
